@@ -7,7 +7,7 @@ import HomePage from './page/homepage/homepage.component';
 import ShopPage from './page/shop/shop.component';
 import SignInAndSignUpPage from './page/Sign-in-and-sign-up/sign-in-and-sign-up.component';
 import Header from './Components/header/header.component';
-import { auth, CreateUserProfileDocument } from './firebase/firebase.utils';
+import { auth, CreateUserProfileDocument  } from './firebase/firebase.utils';
 
 class App extends React.Component {
   constructor() {
@@ -33,7 +33,6 @@ class App extends React.Component {
             }
           });
 
-          console.log(this.state);
         });
       }
 
